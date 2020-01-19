@@ -13,11 +13,14 @@ public class EnemyManager : MonoBehaviour
 
     Coroutine mainCoroutine;
 
-    void Start()
+    void Awake()
     {
         if (!inst)
             inst = this;
+    }
 
+    void Start()
+    {
         currentWaveCount = 0;
     }
 
