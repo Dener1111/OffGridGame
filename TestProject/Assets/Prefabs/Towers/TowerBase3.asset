@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17078d04f6aa1349b312b23e7d55236, type: 3}
+  m_Name: TowerBase3
+  m_EditorClassIdentifier: 
+  displayName: Tower 3
+  icon: {fileID: -2545511984063369323, guid: c8e66b57b616305419ded5945aa16d6f, type: 3}
+  price: 20
+  damage: 10
+  range: 3.5
+  speed: 2
+  projectile: Projectile1
